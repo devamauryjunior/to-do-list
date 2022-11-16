@@ -1,0 +1,59 @@
+#header {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#titulo {
+    color: #256DF4;
+    font-size: 6.4rem;
+    font-style: italic;
+    margin-bottom: .8rem;
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.box-1 #tarefa {
+    width: 30rem;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 2.6rem;
+}
+
+.box-1 #addTarefa {
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#addTarefa:hover {
+    border: 1px solid red;
+}
+
+.box-2 {
+    border: 1px solid #256DF4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.2rem 0 0 0;
+}
+
+.box-2 #dia {
+    color: #333333;
+}
