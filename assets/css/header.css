@@ -4,11 +4,12 @@
 }
 
 .container {
+    width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin: 5rem auto 0 auto;
 }
 
 #titulo {
@@ -26,7 +27,7 @@
 }
 
 .box-1 #tarefa {
-    width: 30rem;
+    width: 35rem;
     padding: .5rem 1rem;
     border: 1px solid black;
     border-radius: 10px;
@@ -43,17 +44,27 @@
 
 #addTarefa:hover {
     border: 1px solid red;
+    background: none;
 }
 
 .box-2 {
-    border: 1px solid #256DF4;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1.2rem 0 0 0;
+    margin: 2rem 0 0 0;
+    height: 5rem;
 }
 
-.box-2 #dia {
+.material-symbols-outlined {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
     color: #333333;
+    cursor: pointer;
+    font-size: 2.6rem;
+    text-align: center;
+    /* border-bottom: 1px solid red; */
 }
