@@ -2,9 +2,11 @@ const botaoParaAdicionarTarefa = document.querySelector('#addTarefa');
 const inputTarefa = document.querySelector('#tarefa');
 const boxQueReceberarElementoFilho = document.querySelector('.box-2');
 const boxQueReceberarTarefasConcluidas = document.querySelector('.box-3');
+const divTarefa = document.querySelector('.tarefas-concluidas');
 let tarefasConcluidas = [];
 
 document.body.style.overflow = 'hidden';
+divTarefa.style.display = 'none';
 
 function addElemento() {
     let li = document.createElement('li');
