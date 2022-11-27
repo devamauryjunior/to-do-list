@@ -1,79 +1,64 @@
-header {
+#header {
     width: 100vw;
     height: 100vh;
-    background-color: #38404B;
+    text-align: center;
 }
 
-.container {
-    width: 100%;
+.input-button {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    margin-top: 1.2rem;
 }
 
-.container .box-1 {
-    width: 100%;
-}
-
-.text-1 {
-    width: 100%;
-    padding: 2rem 1.8rem;
-}
-
-.title-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.title-button h1 {
-    color: #94ADCF;
-    font-size: 2.4rem;
-    font-family: 'Ubuntu';
-}
-
-#abrir-menu {
-    border: none;
-    background: none;
-}
-
-.inputs-button {
-    position: absolute;
-    left: 85px;
-    top: 200px;
-    z-index: 1000;
-    visibility: hidden;
-    overflow-y: hidden;
-}
-
-.inputs-button #addTarefas {
-    width: 100%;
-    padding: .6rem;
-    margin: 2rem 0 0 0;
+.input-button input {
     font-size: 2rem;
-    box-shadow: var(--box-shadow);
-    border-radius: 1.6rem;
-    background-color: #38404B;
+    padding: .6rem;
+    margin-right: 1rem;
 }
 
-.inputs-button #addTarefas:focus, #addTarefas:focus {
+input:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
-.buttons {
-    /* border: 1px solid red; */
-    text-align: right;
-    margin-top: 2rem;
+#addTarefa {
+    padding: .6rem;
+    border: none;
+    background: none;
 }
 
-.buttons button {
-    padding: 1rem;
-    color: #94ADCF;
-    font-family: 'Ubuntu';
-    font-size: 1.6rem;
-    border-radius: 1.6rem;
-    background: none;
+.sobre-tarefa {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sobre-tarefa h2 {
+    font-size: 2rem;
+    font-family: cursive;
+    margin: 2rem 1.6rem;
+}
+
+.sobre-tarefa li {
+    font-family: cursive;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1.6rem;
+}
+
+#tarefa li .material-symbols-outlined,
+#tarefa-concluida li .material-symbols-outlined {
+    margin-inline: 2rem;
+}
+
+#tarefa,
+#tarefa-concluida {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
