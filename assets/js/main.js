@@ -48,7 +48,10 @@ inputDotextoDaNovaTarefa.onclick = () => {
     inputDotextoDaNovaTarefa.style.border = '0.1rem solid black';
 };
 inputDotextoDaNovaTarefa.addEventListener('keypress', event => {
-    if(event.keyCode === 13) addTarefa();
+    if(event.keyCode === 13) {
+        addTarefa();
+        inputDotextoDaNovaTarefa.value = "";
+    }
 });
 document.addEventListener('click', (tag) => {
     const elemento = tag.target;
