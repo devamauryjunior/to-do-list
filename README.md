@@ -14,5 +14,5 @@ Este projeto tem como objetivo fortelecer meus conhecimentos e, bem como, coloca
 ## Veja como ficou
 
 <a href="https://devamauryjunior.github.io/to-do-list/" target="_blank" rel="external">
-    Veja COmo ficou
+    Veja como ficou
 </a>
